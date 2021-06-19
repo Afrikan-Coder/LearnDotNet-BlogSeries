@@ -6,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please enter your name, onto the Console: ");
+            var expectedName = Console.ReadLine();
+            Console.WriteLine($"Hello World {expectedName}");
         }
     }
 }
