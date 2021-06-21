@@ -22,7 +22,7 @@ namespace ConsoleApp1
             object myCar = new Object() {};
             Console.WriteLine(
                 $"Is programming easy ? : {isProgrammingEasy};" +
-                $"My age is : {30} ; My data : {40} ; My salary per hour {mySalaryPerHour} ; " +
+                $"My age is : {myAge} ; My data : {myData} ; My salary per hour {mySalaryPerHour} ; " +
                 $"My height : {myHeight} ; My city : {myCity}; Example object : {myCar}" 
 
                 );
